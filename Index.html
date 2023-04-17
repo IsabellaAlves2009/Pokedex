@@ -8,8 +8,23 @@
     <title>Pokédex</title>
 </head>
 <body>
-   <main>
-     <img src="Img/pokedex.png" alt="Pokedex">
-   </main>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon_image">
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span>
+        </h1>
+        <form class="form">
+            <input type="search" placeholder="Name or number" class="input_search" required>
+        </form>
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+        <img src="Img/pokedex.png" alt="Pokedex">
+    </main>
+    <div>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
